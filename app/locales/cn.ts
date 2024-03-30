@@ -8,12 +8,12 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 渝你同行 API Key。",
   },
   Auth: {
     Title: "需要密码",
     Tips: "管理员开启了密码验证，请在下方填入访问码",
-    SubTips: "或者输入你的 OpenAI 或 Google API 密钥",
+    SubTips: "或者输入你的 渝你同行 API 密钥",
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
@@ -278,7 +278,7 @@ const cn = {
       },
       CustomEndpoint: {
         Title: "自定义接口",
-        SubTitle: "是否使用自定义 Azure 或 OpenAI 服务",
+        SubTitle: "是否使用自定义 Azure 或 渝你同行 服务",
       },
       Provider: {
         Title: "模型服务商",
@@ -287,8 +287,8 @@ const cn = {
       OpenAI: {
         ApiKey: {
           Title: "API Key",
-          SubTitle: "使用自定义 OpenAI Key 绕过密码访问限制",
-          Placeholder: "OpenAI API Key",
+          SubTitle: "使用自定义 渝你同行 Key 绕过密码访问限制",
+          Placeholder: "渝你同行 API Key",
         },
 
         Endpoint: {
