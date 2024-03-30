@@ -223,16 +223,16 @@ const cn = {
       },
       ImportFailed: "导入失败",
     },
-    Mask: {
-      Splash: {
-        Title: "面具启动页",
-        SubTitle: "新建聊天时，展示面具启动页",
-      },
-      Builtin: {
-        Title: "隐藏内置面具",
-        SubTitle: "在所有面具列表中隐藏内置面具",
-      },
-    },
+    // Mask: {
+    //   Splash: {
+    //     Title: "面具启动页",
+    //     SubTitle: "新建聊天时，展示面具启动页",
+    //   },
+    //   Builtin: {
+    //     Title: "隐藏内置面具",
+    //     SubTitle: "在所有面具列表中隐藏内置面具",
+    //   },
+    // },
     Prompt: {
       Disable: {
         Title: "禁用提示词自动补全",
