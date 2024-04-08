@@ -93,12 +93,33 @@ html {
     "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
+// body {
+//   background-color: var(--gray);
+//   color: var(--black);
+//   margin: 0;
+//   padding: 0;
+//   height: var(--full-height);
+//   width: 100vw;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   user-select: none;
+//   touch-action: pan-x pan-y;
+//   overflow: hidden;
+
+//   @media only screen and (max-width: 600px) {
+//     background-color: var(--second);
+//   }
+// }
+
 body {
-  background-color: var(--gray);
-  color: var(--black);
+  background-image: url("../bg.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
   margin: 0;
   padding: 0;
-  height: var(--full-height);
+  height: 100vh; // 使用 100vh 替代 var(--full-height)，确保 body 高度至少为视口高度
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -108,7 +129,7 @@ body {
   overflow: hidden;
 
   @media only screen and (max-width: 600px) {
-    background-color: var(--second);
+    background-color: var(--second); // 注意：这将覆盖背景图片，如果你想在移动设备上也显示背景图片，应该移除或修改这一行
   }
 }
 
