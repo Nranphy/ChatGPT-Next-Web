@@ -360,7 +360,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello:
+      "你好！我是渝你同行，重庆的旅游助手。无论您是想了解重庆的美食、景点还是文化，我都可以为您提供帮助。有什么关于重庆旅游的问题，都可以向我提问。让我们一起探索这座美丽的山城吧！",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
