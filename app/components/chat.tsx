@@ -127,18 +127,18 @@ export function SessionConfigModel(props: { onClose: () => void }) {
               }
             }}
           />,
-          <IconButton
-            key="copy"
-            icon={<CopyIcon />}
-            bordered
-            text={Locale.Chat.Config.SaveAs}
-            onClick={() => {
-              navigate(Path.Masks);
-              setTimeout(() => {
-                maskStore.create(session.mask);
-              }, 500);
-            }}
-          />,
+          // <IconButton
+          //   key="copy"
+          //   icon={<CopyIcon />}
+          //   bordered
+          //   text={Locale.Chat.Config.SaveAs}
+          //   onClick={() => {
+          //     navigate(Path.Masks);
+          //     setTimeout(() => {
+          //       maskStore.create(session.mask);
+          //     }, 500);
+          //   }}
+          // />,
         ]}
       >
         <MaskConfig

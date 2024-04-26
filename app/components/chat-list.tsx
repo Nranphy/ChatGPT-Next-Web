@@ -66,9 +66,9 @@ export function ChatItem(props: {
                   model={props.mask.modelConfig.model}
                 />
               </div>
-              <div className={styles["chat-item-narrow-count"]}>
+              {/* <div className={styles["chat-item-narrow-count"]}>
                 {props.count}
-              </div>
+              </div> */}
             </div>
           ) : (
             <>

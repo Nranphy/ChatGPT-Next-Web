@@ -831,7 +831,7 @@ export function Settings() {
 
         <SyncItems />
 
-        <List>
+        {/* <List>
           <ListItem
             title={Locale.Settings.Mask.Splash.Title}
             subTitle={Locale.Settings.Mask.Splash.SubTitle}
@@ -864,7 +864,7 @@ export function Settings() {
               }
             ></input>
           </ListItem>
-        </List>
+        </List> */}
 
         <List>
           <ListItem

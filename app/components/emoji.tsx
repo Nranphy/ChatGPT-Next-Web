@@ -52,6 +52,28 @@ export function Avatar(props: { model?: ModelType; avatar?: string }) {
   );
 }
 
+// export function Avatar(props: { model?: ModelType; avatar?: string; size?: number }) {
+//   const avatarSize = props.size ?? 1; // 默认大小为 18
+
+//   if (props.model) {
+//     return (
+//       <div className="avatar" style={{ width: avatarSize, height: avatarSize }}>
+//         {props.model?.startsWith("gpt-4") ? (
+//           <BlackBotIcon className="user-avatar" style={{ width: avatarSize, height: avatarSize }} />
+//         ) : (
+//           <BotIcon className="user-avatar" style={{ width: avatarSize, height: avatarSize }} />
+//         )}
+//       </div>
+//     );
+//   }
+
+//   return (
+//     <div className="user-avatar" style={{ width: avatarSize, height: avatarSize }}>
+//       {props.avatar && <EmojiAvatar avatar={props.avatar} size={avatarSize} />}
+//     </div>
+//   );
+// }
+
 export function EmojiAvatar(props: { avatar: string; size?: number }) {
   return (
     <Emoji
